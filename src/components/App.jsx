@@ -1,9 +1,13 @@
 import React from 'react';
-import IncrementorDecrementor from './IncrementorDecrementor';
+import Accordion from './accordion/accordions';
+import IncrementorDecrementor from './incrementDecrement/IncrementorDecrementor';
 
 function App() {
     return(
+     <>
      <IncrementorDecrementor />
+     <Accordion />
+     </>
     )
 
 }
