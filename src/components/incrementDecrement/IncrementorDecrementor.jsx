@@ -10,7 +10,7 @@ function IncrementorDecrementor() {
 
     return(
         <>
-        <div className="container-fluid border">
+        <div className="container mt-2 border">
             <h4 className="text-left">Incrementor/ decrementor app</h4>
             <div className="d-flex flex-column align-items-center mx-auto w-25">
             <span className='text-md'>{state}</span>
