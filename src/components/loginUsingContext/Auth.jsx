@@ -6,7 +6,7 @@ const Auth = () => {
 
     return (
         <>
-        <div className="container-fluid d-flex justify-content-center border p-3">
+        <div className="container d-flex justify-content-center w-25 border p-2 bg-light mt-4 ">
             {
                 authC.status ? <h6>You are logged In 😊 </h6>
                 : <button className='btn btn-outline-secondary' 

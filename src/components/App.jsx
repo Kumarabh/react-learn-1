@@ -3,6 +3,7 @@ import Accordion from './accordion/accordions';
 import GrandParent from './context/GrandParent';
 import IncrementorDecrementor from './incrementDecrement/IncrementorDecrementor';
 import Authenticator from './loginUsingContext/Authenticator';
+import UseEffectExample from './useEffectExample/useEffectExample';
 
 function App() {
     return(
@@ -11,6 +12,7 @@ function App() {
      <Accordion />
      <GrandParent />
      <Authenticator />
+     <UseEffectExample />
      </>
     )
 
