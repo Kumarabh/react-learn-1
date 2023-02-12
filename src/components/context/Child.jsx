@@ -6,7 +6,9 @@ const messageFromGrandParent = useContext(DataContext);
 
     return (
         <>
-        <h5 className='text-center'>Secret code: {messageFromGrandParent}</h5>
+        <div className="container border shadow-sm p-4 bg-light">
+        <h6 className='text-center text-info'>Secret code: {messageFromGrandParent}</h6>
+        </div>
         </>
     );
 }

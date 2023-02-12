@@ -10,14 +10,15 @@ function IncrementorDecrementor() {
 
     return(
         <>
-        <div className="container mt-2 border">
-            <h4 className="text-left">Incrementor/ decrementor app</h4>
-            <div className="d-flex flex-column align-items-center mx-auto w-25">
-            <span className='text-md'>{state}</span>
-            <Button onClick={increase}>Increment</Button>
-            <Button  onClick ={decrease}>Decrement</Button>
+            <div className='container mt-4 border'>
+                <h5 className='text-center'>Incrementor decrementor </h5>
+
+                <div className="container d-flex flex-column align-items-center w-50 mt-4 bg-light shadow-sm">
+                    <span className='text-md' style={{fontSize: '24px'}}>{state}</span>
+                    <Button onClick={increase}>Increment</Button>
+                    <Button onClick={decrease}>Decrement</Button>
+                </div>
             </div>
-        </div>
 
         </>
 

@@ -6,8 +6,8 @@ function Accordions () {
 
     return (
         <>
-        <div className="container border mt-2">
-            <h4 className='text-center'>Accordions 😋</h4>
+        <div className="container border mt-4 p-3">
+            <h5 className='text-center'>Accordions 😋</h5>
 
             {
                 accordionData.map((element) => {

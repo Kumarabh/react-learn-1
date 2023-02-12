@@ -4,6 +4,7 @@ import GrandParent from './context/GrandParent';
 import IncrementorDecrementor from './incrementDecrement/IncrementorDecrementor';
 import Authenticator from './loginUsingContext/Authenticator';
 import UseEffectExample from './useEffectExample/useEffectExample';
+import WebsiteTitle from './website-title-use-effect/WebsiteTitle';
 
 function App() {
     return(
@@ -13,6 +14,7 @@ function App() {
      <GrandParent />
      <Authenticator />
      <UseEffectExample />
+     <WebsiteTitle />
      </>
     )
 
