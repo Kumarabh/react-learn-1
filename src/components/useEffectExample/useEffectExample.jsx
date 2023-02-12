@@ -4,7 +4,7 @@ function UseEffectExample () {
 
     const [state, setState] = useState(0);
 
-    useEffect(() => {alert('STATE CHANGED / USE EFFECT Hook triggerd/ Rendered again')}, [state])
+    useEffect(() => {console.log('STATE CHANGED / USE EFFECT Hook triggerd/ Rendered again')}, [state])
 
     return (
         <>
