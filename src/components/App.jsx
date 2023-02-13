@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from './accordion/accordions';
+import CommentAPI from './comments-api/CommentAPI';
 import GrandParent from './context/GrandParent';
 import IncrementorDecrementor from './incrementDecrement/IncrementorDecrementor';
 import Authenticator from './loginUsingContext/Authenticator';
@@ -17,6 +18,7 @@ function App() {
      <UseEffectExample />
      <WebsiteTitle />
      <UserAPI />
+     <CommentAPI />
      </>
     )
 
